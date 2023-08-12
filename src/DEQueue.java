@@ -16,7 +16,7 @@ public class DEQueue {
     }
 
     public Boolean isEmpty() {
-        return (front == -1 && rear == 0);
+        return (front == -1 && rear == -1);
     }
 
     public void insertFront(int value) {
